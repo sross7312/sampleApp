@@ -102,3 +102,15 @@ Started GET "/pages/about" for 127.0.0.1 at 2012-02-04 23:39:18 -0600
   Processing by PagesController#about as HTML
 Rendered pages/about.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-05 17:26:38 -0600
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (275.0ms)
+Completed 200 OK in 1026ms (Views: 1025.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-05 17:39:23 -0600
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
