@@ -204,3 +204,51 @@ ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.
   
 
 Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-07 20:37:49 -0600
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2012-02-07 20:37:49 -0600
+Served asset /blueprint/screen.css - 404 Not Found (14ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2012-02-07 20:37:49 -0600
+Served asset /blueprint/print.css - 404 Not Found (17ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at 2012-02-07 20:37:57 -0600
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2012-02-07 20:37:58 -0600
+Served asset /blueprint/screen.css - 404 Not Found (16ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2012-02-07 20:37:58 -0600
+Served asset /blueprint/print.css - 404 Not Found (17ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
