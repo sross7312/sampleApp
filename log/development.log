@@ -114,3 +114,93 @@ Started GET "/pages/home" for 127.0.0.1 at 2012-02-05 17:39:23 -0600
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 18:50:13 -0600
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (269.0ms)
+Completed 200 OK in 1133ms (Views: 1133.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2012-02-06 18:50:48 -0600
+Served asset /blueprint/screen.css - 404 Not Found (17ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2012-02-06 18:50:48 -0600
+Served asset /blueprint/print.css - 404 Not Found (12ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-06 19:25:22 -0600
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2012-02-06 19:25:22 -0600
+Served asset /blueprint/screen.css - 404 Not Found (22ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2012-02-06 19:25:22 -0600
+Served asset /blueprint/print.css - 404 Not Found (13ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2012-02-06 21:44:03 -0600
+Served asset /blueprint/screen.css - 404 Not Found (47ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2012-02-06 21:44:03 -0600
+Served asset /blueprint/print.css - 404 Not Found (15ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2012-02-07 20:19:09 -0600
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 175ms (Views: 174.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blueprint/screen.css" for 127.0.0.1 at 2012-02-07 20:19:10 -0600
+Served asset /blueprint/screen.css - 404 Not Found (20ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/screen.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/assets/blueprint/print.css" for 127.0.0.1 at 2012-02-07 20:19:10 -0600
+Served asset /blueprint/print.css - 404 Not Found (17ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/blueprint/print.css"):
+  
+
+Rendered c:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
